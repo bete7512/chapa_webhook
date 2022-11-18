@@ -10,7 +10,6 @@
     ],
     "routes": [
       {
-        "src": "/(.*)",
         "dest": "/webhook.js"
       }
     ]
