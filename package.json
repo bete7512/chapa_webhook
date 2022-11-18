@@ -1,0 +1,24 @@
+{
+  "name": "alx-full-stack-e-commerce-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bete7512/alx-full-stack-ecommerce-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bete7512/alx-full-stack-ecommerce-app/issues"
+  },
+  "homepage": "https://github.com/bete7512/alx-full-stack-ecommerce-app#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.18.2"
+  }
+}
