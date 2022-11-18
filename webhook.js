@@ -8,6 +8,7 @@ app.get('/', (req, res) => {
 })
 app.post("/event/webhook", function (req, res) {
     //validate event
+    console.log(req.body)
     const hash = crypto.createHmac('sha256', secret).update(JSON.stringify(req.body)).digest('hex');
     if (hash == req.headers['Chapa-Signature']) {
         // Retrieve the request's body
