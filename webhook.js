@@ -15,8 +15,12 @@ app.post("/event/webhook", async (req, res) => {
     // try {
     const hash =  crypto.createHmac('sha256', secret).update(JSON.stringify(req.body)).digest('hex');
     // console.log(hash);
-
-    if (hash == req.headers['x-chapa-signature']) {
+//https://chapa-webhook.vercel.app
+    if (
+        // hash == req.headers['Chapa-signature'] 
+        // && 
+    hash == req.headers['x-chapa-signature']
+    ) {
         // Retrieve the request's body
         // const event = req.body;
         // Do something with event  
